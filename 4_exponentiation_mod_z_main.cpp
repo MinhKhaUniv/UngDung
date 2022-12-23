@@ -73,8 +73,7 @@ int main() {
 
         temp = x;
         x = w;
-        int temp2 = temp*w;
-        x = temp2 % z;
+        w = (temp*w) % z;
         l = l + 1;
 
     } while (r < s);
